@@ -1,0 +1,9 @@
+:root {
+  --title-color: #ff0070;
+  --main-font: 'IBM Plex mono';
+  --main-font-size: 18px;
+  --title-font-weight: 700;
+  --text-font-weight: 400;
+  --main-padding-small: 10px;
+  --main-padding-big: 20px
+}

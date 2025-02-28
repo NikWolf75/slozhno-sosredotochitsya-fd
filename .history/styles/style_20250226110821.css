@@ -1,0 +1,18 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font, 'IBM Plex mono') monospace;
+  font-size: 18px;
+  block-size: min-content;
+  position: relative;
+  font-weight: 700;
+  background-color: var(--main-background-color);
+  background-image: var(--main-background-image);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+ }
+
+ .header {
+  display: grid;
+ }

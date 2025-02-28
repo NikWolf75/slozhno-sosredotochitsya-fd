@@ -1,0 +1,7 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--main-font, 'IBM Plex mono') monospace;
+  font-size: 18px;
+  block-size: ;
+ }

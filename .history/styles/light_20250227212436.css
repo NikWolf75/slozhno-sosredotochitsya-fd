@@ -1,0 +1,44 @@
+:root.theme-light {
+  --title-short-text-color: #FFC2E6;
+  --header-background-image: url(../images/cover-image-light.png);
+  --title-text-color: #353430;
+  --accent-color: #FF8DCB;
+  --menu-color: #353430;
+  --menu-color-rgb: rgba(53, 52, 48, 0.4);
+  --shadow-accent-color: #FF8DCB;
+  --main-background-color: #FFF1F7;
+  --answer-text-color: #353430;
+  --answer-short-text-color: #353430;
+  --question-text-color: #353430;
+  --corner-color: #353430;
+}
+
+.theme-light .page .rec_element {
+  display: none;
+}
+
+.theme-light .rec_element::after {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --main-background-color: #fff1f7;
+  --main-font-color: #354330;
+  --title-color: #354330;
+  --title-font-color: #354330;
+  --accent-color: #ff8dcb;
+  --title-main-text-color: #ffc2e6;
+  --rec-theme-color: #354330;
+  --button-text-color: #354330;
+  --button-outline-color: rgb(50 49 45 / 40%);
+  --main-background-image: url("../images/cover-image-light.png");
+  --question_text-color: #FF0070;
+  --content__answer-short-color: #354330;
+  --corner-color: #354330;
+  }
+}
+
+.theme-auto .rec_element {
+  display: none;
+}

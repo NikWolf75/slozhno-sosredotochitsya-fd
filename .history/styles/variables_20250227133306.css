@@ -1,0 +1,30 @@
+:root {
+  --main-background-color: #000028;
+  --title-color: #ff0070;
+  --main-font: 'IBM Plex mono';
+  --main-font-color: #F1B2CE;
+  --undertitle-color: #000028;
+  --main-font-size: 18px;
+  --accent-color: #ff0070;
+  --accent-color-title: #db00ff;
+  --title-font-weight: 700;
+  --text-font-weight: 400;
+  --main-padding-small: 10px;
+  --main-padding-big: 20px;
+  --title-font-size-small: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --title-font-size-big: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+}
+
+
+
+
+
+
+--accent-color-title: #db00ff;
+--rec-theme-color: #ff0070;
+--button-text-color: #ff0070;
+--button-outline-color: #rgb(255 0 112 / 40%);
+
+
+
+
