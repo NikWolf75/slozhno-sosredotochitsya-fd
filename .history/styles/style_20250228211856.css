@@ -311,6 +311,12 @@
   grid-template-rows: 1fr min-content 1fr;
 }
 
+@media (width >= 1024px) {
+  .footer {
+    block-size: max(768px, 100vh);
+  }
+}
+
 .footer_title {
   justify-self: center;
 }
@@ -521,14 +527,3 @@
   }
 }
 
-@media (width >= 1024px) {
-  .content_gallery {
-    grid-template-rows: 260px 315px 433px;
-  }
-}
-
-@media (width >= 1024px) {
-  .footer {
-    block-size: max(768px, 100vh);
-  }
-}

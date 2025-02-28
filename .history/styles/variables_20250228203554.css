@@ -1,0 +1,14 @@
+:root {
+  --title-short-text-color: #FFC2E6;
+  --main-background-image: url(/images/cover-image-light.png);
+  --title-text-color: #353430;
+  --accent-color: #FF8DCB;
+  --menu-color: #353430;
+  --menu-color-rgb: rgba(53, 52, 48, 0.4);
+  --shadow-accent-color: #FF8DCB;
+  --main-background-color: #FFF1F7;
+  --answer-text-color: #353430;
+  --answer-short-text-color: #353430;
+  --question-text-color: #353430;
+  --corner-color: #353430;
+}
