@@ -100,6 +100,7 @@
   color: var(--menu-color);
   font-weight: 400;
   border: 1px solid transparent;
+  border-radius: 1px;
   text-transform: lowercase;
   height: 24px;
   padding-right: 13px;
@@ -114,7 +115,7 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--menu-focus-color);
-  outline-offset: 1px;
+  
 }
 
 .header__theme-menu-button:hover {

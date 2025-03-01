@@ -100,6 +100,7 @@
   color: var(--menu-color);
   font-weight: 400;
   border: 1px solid transparent;
+  border-radius: 1px;
   text-transform: lowercase;
   height: 24px;
   padding-right: 13px;

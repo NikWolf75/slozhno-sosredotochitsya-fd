@@ -110,11 +110,12 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+  border: 1px solid transparent;
 }
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--menu-focus-color);
-  outline-offset: 1px;
+  border: 1px solid transparent;
 }
 
 .header__theme-menu-button:hover {

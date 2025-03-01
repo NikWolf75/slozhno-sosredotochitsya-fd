@@ -113,17 +113,16 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--menu-focus-color);
-  outline-offset: 1px;
+  border-block-end-color: currentColor;
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+  border-color: currentColor;
 }
 
 .header__theme-menu-button:hover {
   outline: 1px solid var(--menu-color-rgb);
-}
-
-.header__theme-menu-button_active {
-  outline: 1px solid var(--menu-color);
-  pointer-events: none;
 }
 
 .content {
@@ -267,13 +266,11 @@
 }
 
 .text_link:hover {
-  cursor: pointer;
-  border-block-end: 1px solid currentColor;
+  outline: 1px solid var(--menu-color);
 }
 
 .text_link:focus {
   outline: none;
-  border: none;
 }
 
 .text_link:focus-visible {

@@ -110,11 +110,11 @@
 
 .header__theme-menu-button:focus {
   outline: none;
+  outline-offset: -2px;
 }
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--menu-focus-color);
-  outline-offset: 1px;
 }
 
 .header__theme-menu-button:hover {
