@@ -41,7 +41,7 @@
     --answer-short-text-color: #353430;
     --question-text-color: #353430;
     --corner-color: #353430;
-  }
+  }  
   
   .theme-light .rec_element {
     display: none;
@@ -53,5 +53,5 @@
 
   .rec_element .rec_element::after {
     display: none;
-  }
+  } 
 }
